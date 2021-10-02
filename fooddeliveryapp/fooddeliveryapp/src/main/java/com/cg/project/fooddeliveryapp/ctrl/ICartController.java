@@ -12,7 +12,7 @@ import com.cg.project.fooddeliveryapp.entity.Item;
 import com.cg.project.fooddeliveryapp.service.ICartService;
 
 @RestController
-@RequestMapping("/api/fooddelivery")
+@RequestMapping("/api")
 public class ICartController {
 	
 	@Autowired

@@ -14,7 +14,7 @@ import com.cg.project.fooddeliveryapp.entity.Category;
 import com.cg.project.fooddeliveryapp.service.ICategoryService;
 
 @RestController
-@RequestMapping("/api/fooddelivery")
+@RequestMapping("/api")
 public class ICategoryController {
 	
 	@Autowired

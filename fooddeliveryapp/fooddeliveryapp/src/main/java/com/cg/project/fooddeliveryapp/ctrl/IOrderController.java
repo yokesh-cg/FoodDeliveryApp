@@ -18,7 +18,7 @@ import com.cg.project.fooddeliveryapp.service.IOrderService;
 
 
 @RestController
-@RequestMapping("/api/fooddelivery")
+@RequestMapping("/api")
 public class IOrderController {
 	
 	@Autowired

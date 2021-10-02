@@ -13,7 +13,7 @@ import com.cg.project.fooddeliveryapp.service.ILoginService;
 
 
 @Controller
-@RequestMapping("/api/fooddelivery")
+@RequestMapping("/api")
 public class ILoginController {
 
 	@Autowired

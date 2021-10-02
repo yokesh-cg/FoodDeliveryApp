@@ -41,17 +41,17 @@ public class IBillController {
 	
 
 	
-	@GetMapping("/viewbillsbydate")
+	@GetMapping("/bills")
 	public List<Bill> viewBills(@PathVariable LocalDate startDate, LocalDate endDate){		
 		return null;
 	}
 	
-	@GetMapping("/viewbillsbycustid")
+	@GetMapping("/bills/{id}")
 	public Bill viewBills(@PathVariable String custid){
 		return iBillService.viewBills(custid);
 	}
 	
-	@GetMapping("/calculatebill")
+	@GetMapping("/bill")
 	public double calculateTotalCost(@RequestBody Bill bill) {
 		return iBillService.calculateTotalCost(bill);
 	}
